@@ -215,4 +215,15 @@ class NovaBelongsToDepend extends BelongsTo
             'showLinkToResourceFromIndex' => $this->showLinkToResourceFromIndex
         ], $this->meta);
     }
+
+      /**
+       * @param $parentResourceClass
+       * @return self
+       */
+      public function setResourceParentClass($parentResourceClass)
+      {
+        $this->resourceParentClass = $parentResourceClass;
+
+        return $this;
+      }
 }
