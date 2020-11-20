@@ -1,5 +1,5 @@
 {
-    "name": "peterchrjoergensen/nova-belongsto-depend",
+    "name": "orlyapps/nova-belongsto-depend",
     "description": "A Laravel Nova field.",
     "keywords": [
         "laravel",
